@@ -512,3 +512,23 @@ export const $submit_bar: CSSProperties = {
     price_integer_font_size: '20px',
     price_font_family: $price_integer_font_family,
 };
+
+// Toast
+// todo 转成rem
+export const $Toast: CSSProperties = {
+    default_width: '5.5rem',
+    max_width: '70%',
+    default_min_height: '5.5rem',
+    default_padding: $padding_md,
+    text_color: $white,
+    font_size: $font_size_md,
+    line_height: $line_height_md,
+    border_radius: $border_radius_lg,
+    background_color: 'rgba(0, 0, 0, 70%)',
+    position_top_distance: '20%',
+    position_bottom_distance: '20%',
+    text_min_width: '6rem',
+    text_padding: `${$padding_xs} ${$padding_sm}`,
+    // icon_size: '2.25rem !important',
+    // loading_icon_color: @white,
+};

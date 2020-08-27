@@ -95,10 +95,10 @@ module.exports = {
                                 path: 'style',
                                 title: 'Style 内置样式',
                             },
-                            // {
-                            //     path: 'toast',
-                            //     title: 'Toast 轻提示',
-                            // },
+                            {
+                                path: 'toast',
+                                title: 'Toast 轻提示',
+                            },
                         ],
                     },
                     {
